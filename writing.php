@@ -3,10 +3,11 @@
 
 <section id="writing" class="main">
   <div class="container">
-    <div class="row">
-      
-      <div class="col-xs-12 col-sm-6">
+    
+    <?php include('inc/head-small.php'); ?>
 
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
         <h3>Selected online:</h3>
         <p>Interview, The Great Discontent, February 2016</p>
         <p>Why is so much of design school a waste of time?,Dear Design Student, November 2015</p>

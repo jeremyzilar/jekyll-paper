@@ -1,10 +1,11 @@
 <?php include('header.php'); ?>
 
-
 <section id="speaking" class="main">
   <div class="container">
+    
+    <?php include('inc/head-small.php'); ?>
+
     <div class="row">
-      
       <div class="col-xs-12 col-sm-6">
         <p>“Type Goes Online at Last! Oh wait, maybe not.” Typographics 2016, New York, June 17, 2016</p>
         <p>Moderator, “Design as Discipline: From the Drafting Table to the Academy,” Museum of the City of New York, June 15, 2015</p>

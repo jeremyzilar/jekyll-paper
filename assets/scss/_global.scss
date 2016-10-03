@@ -19,7 +19,7 @@ $break-lg: "screen and (min-width: 1200px)";
 
 // Type
 $sans: Helvetica, Arial, sans-serif;
-$serif: Georgia, serif;
+$serif: 'Crimson Text', Georgia, serif;
 
 // Colors
 @mixin alpha-background-color($color, $background) {
@@ -34,7 +34,7 @@ $serif: Georgia, serif;
 body {
   background: #F7F7F7;
   font-family: $serif;
-  font-size: 21px;
+  font-size: 24px;
   line-height: 28px;
   color:$text-color;
   -webkit-overflow-scrolling: touch;
@@ -64,7 +64,7 @@ h1 {
 
 h3 {
   margin:0 0 10px 0;
-  font-size: 21px;
+  font-size: 24px;
   font-style: italic;
 }
 
@@ -76,4 +76,19 @@ h3 {
   padding:0;
   list-style: none;
 }
+
+#head-small{
+  h1,
+  .back-to-home{
+    display: inline-block;
+  }
+  h1{
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  span{
+    font-weight: bold;
+  }
+}
+
 
