@@ -1,7 +1,3 @@
-/*FONTS
-font-family: 'Lato', sans-serif;
-*/
-
 $text-color: #222D49;
 $link-color: #DC4444;
 $red: #DC4444;
@@ -38,7 +34,7 @@ $serif: Georgia, serif;
 body {
   background: #F7F7F7;
   font-family: $serif;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 28px;
   color:$text-color;
   -webkit-overflow-scrolling: touch;
@@ -50,7 +46,7 @@ a {
 
 a:hover {
   text-decoration: underline;
- color:$light-blue;
+  color:$light-blue;
 }
 
 hr {
@@ -59,138 +55,25 @@ hr {
   border-bottom: 1px $text-color solid;
 }
 
-h1,h2,h3,h4,h5,h6{
-  color:$deep-blue;
-  a{
-    color:$deep-blue;
-  }
-  a:hover{
-    color:$deep-blue;
-  }
-}
 
 h1 {
+  margin:0 0 10px 0;
   font-weight: 900;
-  font-size: 60px;
-}
-
-h2 {
-  font-weight: 800;
-  font-size: 48px;
+  font-size: 24px;
 }
 
 h3 {
-  font-weight: 700;
-  font-size: 36px;
+  margin:0 0 10px 0;
+  font-size: 21px;
+  font-style: italic;
 }
 
-h4 {
-  margin-top: 35px;
-  font-weight: 800;
-  font-size: 24px;
-  font-family: $sans;
+.main{
+  padding:120px 0;
 }
 
-h5 {
-  margin-top: 25px;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: $sans;
+#nav{
+  padding:0;
+  list-style: none;
 }
 
-h6 {
-  margin-top: 25px;
-  font-weight: 400;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-family: $sans;
-  a {
-    color:$red;
-  }
-  a:hover {
-    color:$red;
-  }
-}
-
-
-// .container{
-//   max-width: 100%;
-  
-//   @media #{$break-sm} {
-//     max-width: 780px;
-//   }
-//   @media #{$break-md} {
-//     max-width: 780px;
-//   }
-//   @media #{$break-lg} {
-//     max-width: 780px;
-//   }
-// }
-
-// .single .container{
-//   max-width: 100%;
-  
-//   @media #{$break-sm} {
-//     max-width: 960px;
-//   }
-//   @media #{$break-md} {
-//     max-width: 960px;
-//   }
-//   @media #{$break-lg} {
-//     max-width: 960px;
-//   }
-// }
-
-section{
-  padding:10px 0;
-}
-
-
-.highlight{
-  background: yellow;
-}
-
-
-#main{
-  padding:30px 0 50px 0;
-  @media #{$break-sm} {
-    background:none;
-  }
-}
-
-
-.follow-btn{
-  margin: 0 10px;
-  display: inline-block;
-  font-size: 18px;
-  line-height: 21px;
-  a{
-    color: $light-blue;
-    font-weight: 300;
-    text-decoration: none;
-    i{
-      margin-right: 3px;
-      position: relative;
-      top:5px;
-      font-size: 30px;
-      line-height: 30px;
-    }
-  }
-}
-.follow-btn-tw{
-  i{
-    color:#00aced;
-  }
-}
-.follow-btn-fb{
-  i{
-    color:#3b5998;
-  }
-}
-
-
-#listmaker{
-  p{
-    font-family: $sans;
-  }
-}

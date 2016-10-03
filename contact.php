@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 
-<section id="home" class="main">
+<section id="contact" class="main">
   <div class="container">
     <div class="row">
       
