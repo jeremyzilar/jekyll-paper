@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 
-<section id="home" class="main">
+<section id="<?php echo $base; ?>" class="main">
   <div class="container">
     <div class="row">
       

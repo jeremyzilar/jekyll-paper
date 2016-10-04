@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include('functions.php'); ?>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta property="og:title" content="Observing Kepler's 4th Birthday" />
@@ -20,3 +19,14 @@
 </head>
 
 <body>
+<?php include('functions.php'); ?>
+
+<?php if ($base == 'home') { ?>
+  <div class="video-background">
+    <div class="video-foreground">
+      <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+<?php } ?>
+
+
