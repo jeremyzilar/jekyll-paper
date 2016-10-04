@@ -35,19 +35,19 @@ $serif: 'Crimson Text', Georgia, serif;
 body {
   background: #256DF7;
   font-family: $serif;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 28px;
+  line-height: 36px;
   color:$text-color;
   -webkit-overflow-scrolling: touch;
 }
 
 a {
-  color:$light-blue;
+  color:$text-color;
 }
 
 a:hover {
   text-decoration: underline;
-  color:$light-blue;
+  color:#fff;
 }
 
 hr {
@@ -60,12 +60,12 @@ hr {
 h1 {
   margin:0 0 10px 0;
   font-weight: 900;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h3 {
   margin:0 0 10px 0;
-  font-size: 24px;
+  font-size: 28px;
   font-style: italic;
 }
 
@@ -93,9 +93,9 @@ h3 {
 }
 
 
-* { box-sizing: border-box; }
+// * { box-sizing: border-box; }
 .video-background {
-  background: #000;
+  background: #111;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
@@ -108,4 +108,33 @@ h3 {
   width: 100%;
   height: 100%;
   pointer-events: none;
+}
+.video-overlay{
+  background-size: 8px 8px;
+  display: block;
+  background-image: url('https://juliettecezzar.persona.co/_jsapps/backdrop/video/assets/hexed_16.png');
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  background-position: center;
+  z-index: 10;
+  pointer-events: none;
+}
+.color-overlay{
+  background-color: rgba(66, 109, 246, 0.85);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+#home .color-overlay{
+  display: none;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
 }
