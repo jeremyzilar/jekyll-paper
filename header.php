@@ -8,7 +8,7 @@
   <meta property="og:url" content="http://juliettecezzar.com" />
   <meta property="og:site_name" content="Juliette Cezzar" />
   <meta property="og:description" content="Juliette Cezzar is designer, author, and educator based in New York City." />
-  <meta property="og:image" content="<?php echo $site_url; ?>/assets/img/juliette-cezzar.png"/>
+  <meta property="og:image" content="<?php echo $site_url; ?>assets/img/juliette-cezzar.png"/>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">

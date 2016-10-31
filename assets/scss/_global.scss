@@ -43,11 +43,13 @@ body {
 
 a {
   color:$text-color;
+  border-bottom: solid 2px rgba(255,255,255,.5);
 }
 
 a:hover {
-  text-decoration: underline;
-  color:#fff;
+  color:$text-color;
+  text-decoration: none;
+  border-bottom: solid 2px rgba(255,255,255,.8);
 }
 
 hr {
@@ -61,6 +63,9 @@ h1 {
   margin:0 0 10px 0;
   font-weight: 900;
   font-size: 28px;
+  a{
+    border:none;
+  }
 }
 
 h3 {
@@ -76,6 +81,9 @@ h3 {
 #nav{
   padding:0;
   list-style: none;
+  li{
+    margin-bottom: 3px;
+  }
 }
 
 #head-small{
