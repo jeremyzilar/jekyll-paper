@@ -22,6 +22,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/screen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1061,
+		"inputAbbreviatedPath": "\/assets\/img\/screen.png",
+		"outputAbbreviatedPath": "\/assets\/img\/screen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/_common.js": {
 		"fileType": 64,
 		"ignore": 1,

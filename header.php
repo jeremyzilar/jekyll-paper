@@ -28,7 +28,7 @@
   <div class="video-background">
     <div class="video-overlay"></div>
     <div class="video-foreground">https://youtu.be/I-VC-LWAy5U
-      <iframe src="https://www.youtube.com/embed/I-VC-LWAy5U?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/I-VC-LWAy5U?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=I-VC-LWAy5U" frameborder="0" allowfullscreen></iframe>
     </div>
     <?php if ($base !== 'home') { ?>
       <div class="color-overlay"></div>

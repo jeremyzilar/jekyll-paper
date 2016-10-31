@@ -12,24 +12,24 @@ if ($host == 'local.work') {
   $site_url = $host;
 }
 
-$base = ($basename === $site) ? 'home' : $basename ;
-// print_r($request_uri);
+$base = ($basename === 'juliettecezzar') ? 'home' : $basename ;
+// print_r($base);
 
-$page_base = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
-$page_base = str_replace('.php', '', $page_base);
+// $page_base = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
+// $page_base = str_replace('.php', '', $page_base);
 // echo $page_base;
 
 
 
 // Page Conditions
-if ($page_base == 'writing') {
+if ($base == 'writing') {
   $page_title = 'Writing';
 }
 
-if ($page_base == 'contact') {
+if ($base == 'contact') {
   $page_title = 'Contact';
 }
 
-if ($page_base == 'speaking') {
-  $page_title = 'Speaking';
+if ($base == 'speaking') {
+  $page_title = 'Speaking <span>(selected)</span>';
 }

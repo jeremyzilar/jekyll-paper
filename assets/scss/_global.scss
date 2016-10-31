@@ -13,10 +13,10 @@ $light-grey: rgba(60,60,60,1);
 $salmon: rgba(255,146,153,1);
 
 /*Break Points*/
-// $break-xs: "screen and (max-width: 767px)";
-// $break-sm: "screen and (min-width: 768px)";
-// $break-md: "screen and (min-width: 992px)";
-// $break-lg: "screen and (min-width: 1200px)";
+$break-xs: "screen and (max-width: 767px)";
+$break-sm: "screen and (min-width: 768px)";
+$break-md: "screen and (min-width: 992px)";
+$break-lg: "screen and (min-width: 1200px)";
 
 // Type
 $sans: Helvetica, Arial, sans-serif;
@@ -33,9 +33,9 @@ $serif: 'Crimson Text', Georgia, serif;
 
 
 body {
-  background: #256DF7;
+  background: #111;
   font-family: $serif;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 36px;
   color:$text-color;
   -webkit-overflow-scrolling: touch;
@@ -58,35 +58,47 @@ hr {
   border-bottom: 1px $text-color solid;
 }
 
+#home{
+  font-size: 28px;
+}
 
 h1 {
-  margin:0 0 10px 0;
+  margin:0 0 8px 0;
   font-weight: 900;
-  font-size: 28px;
+  font-size: inherit;
+  letter-spacing: 1px;
   a{
     border:none;
   }
 }
 
 h3 {
-  margin:0 0 10px 0;
-  font-size: 28px;
+  margin:0 0 24px 0;
+  font-size: 26px;
   font-style: italic;
 }
 
 .main{
-  padding:120px 0;
+  padding:80px 0;
+  @media #{$break-sm} {
+    padding:120px 0;
+  }
 }
 
 #nav{
+  margin-bottom: 40px;
   padding:0;
   list-style: none;
   li{
     margin-bottom: 3px;
   }
+  @media #{$break-sm} {
+    margin-bottom: 0;
+  }
 }
 
 #head-small{
+  margin-bottom: 36px;
   h1,
   .back-to-home{
     display: inline-block;
@@ -96,10 +108,18 @@ h3 {
     margin-right: 20px;
   }
   span{
-    font-weight: bold;
+    font-weight: normal;
   }
 }
 
+
+
+
+#content{
+  p{
+    margin-bottom: 36px;
+  }
+}
 
 // * { box-sizing: border-box; }
 .video-background {
@@ -107,6 +127,9 @@ h3 {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
+  @media #{$break-xs} {
+    display: none;
+  }
 }
 .video-foreground,
 .video-background iframe {
@@ -120,7 +143,7 @@ h3 {
 .video-overlay{
   background-size: 8px 8px;
   display: block;
-  background-image: url('https://juliettecezzar.persona.co/_jsapps/backdrop/video/assets/hexed_16.png');
+  background-image: url('../img/screen.png');
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   width: 100%;

@@ -6,22 +6,22 @@
     
     <?php include('inc/head-small.php'); ?>
 
-    <div class="row">
+    <div class="row" id="content">
       <div class="col-xs-12 col-sm-6">
         <h3>Selected online:</h3>
-        <p>Interview, The Great Discontent, February 2016</p>
-        <p>Why is so much of design school a waste of time?,Dear Design Student, November 2015</p>
-        <p>Other writings on Medium, 2015–present</p>
-        <p>What is Graphic Design? and related articles, AIGA Career and Education Guide, October 2014</p>
+        <p><a href="https://thegreatdiscontent.com/interview/juliette-cezzar">Interview</a>, The Great Discontent, February 2016</p>
+        <p><a href="https://deardesignstudent.com/why-is-so-much-of-design-school-a-waste-of-time-39ec2a1aa7d5#.8ikkct5pw">Why is so much of design school a waste of time?</a>, Dear Design Student, November 2015</p>
+        <p><a href="https://medium.com/@oubliette">Other writings on Medium</a>, 2015–present</p>
+        <p><a href="http://www.aiga.org/guide-whatisgraphicdesign">What is Graphic Design?</a> and related articles, AIGA Career and Education Guide, October 2014</p>
       
       </div>
 
       <div class="col-xs-12 col-sm-6">
 
         <h3>Books:</h3>
-        <p>Designing the Editorial Experience, co-authored with Sue Apfelbaum, May 2014</p>
-        <p>Paper Astronaut, Paper Captain, and Paper Pilot, 2007–2009</p>
-        <p>Office Mayhem, 2008</p>
+        <p><a href="https://www.amazon.com/dp/1592538959/">Designing the Editorial Experience</a>, co-authored with Sue Apfelbaum, May 2014</p>
+        <p><a href="https://www.amazon.com/dp/0789318814/">Paper Astronaut</a>, <a href="https://www.amazon.com/dp/0789318091">Paper Captain</a>, and <a href="https://www.amazon.com/dp/0789315351/">Paper Pilot</a>, 2007–2009</p>
+        <p><a href="https://www.amazon.com/dp/0789315351/">Office Mayhem</a>, 2008</p>
       </div>
     </div>
   </div><!-- .container -->
