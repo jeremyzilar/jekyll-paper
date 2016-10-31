@@ -7,9 +7,9 @@ $basename =  basename($_SERVER['REQUEST_URI'], '.php');
 
 // localhost check
 if ($host == 'local.work') {
-  $site = 'juliettecezzar';
+  $site_url = 'http://'. $host . '/juliettecezzar';
 } else {
-  $site = '';
+  $site_url = $host;
 }
 
 $base = ($basename === $site) ? 'home' : $basename ;

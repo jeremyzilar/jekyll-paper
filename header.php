@@ -1,12 +1,17 @@
+<?php include('functions.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta property="og:title" content="Observing Kepler's 4th Birthday" />
-  <meta property="og:url" content="http://keplr.me" />
-  <meta property="og:site_name" content="Kepler" />
-  <meta property="og:description" content="Kepler's 4th Birthday in Prospect Park, Brooklyn" />
-  <meta property="og:image" content="http://keplr.me/img/kepler4a.jpg"/>
+
+  <meta property="og:title" content="Juliette Cezzar / Design" />
+  <meta property="og:url" content="http://juliettecezzar.com" />
+  <meta property="og:site_name" content="Juliette Cezzar" />
+  <meta property="og:description" content="Juliette Cezzar is designer, author, and educator based in New York City." />
+  <meta property="og:image" content="<?php echo $site_url; ?>/assets/img/juliette-cezzar.png"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
@@ -15,11 +20,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="assets/css/main-min.css?=new" type="text/css" media="screen" title="no title" charset="utf-8">
 
-  <title>Document</title>
+  <title>Juliette Cezzar / Design</title>
 </head>
 
 <body>
-<?php include('functions.php'); ?>
 
   <div class="video-background">
     <div class="video-overlay"></div>

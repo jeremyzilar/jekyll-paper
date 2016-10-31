@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/img\/juliette-cezzar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.06898e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/juliette-cezzar.png",
+		"outputAbbreviatedPath": "\/assets\/img\/juliette-cezzar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/_common.js": {
 		"fileType": 64,
 		"ignore": 1,
