@@ -16,7 +16,9 @@
       </div>
 
       <div class="col-xs-12 col-sm-6">
-        <p>Contact</p>
+        <p><a href="mailto:jc@juliettecezzar.com">jc@juliettecezzar.com</a></p>
+        <p>Twitter: <a href="http://twitter.com/juliettecezzar">@juliettecezzar</a></p>
+        <p>Instagram: <a href="http://instagram.com/juliettecezzar">@juliettecezzar</a></p>
       </div>
     </div>
   </div><!-- .container -->

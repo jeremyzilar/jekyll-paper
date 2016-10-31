@@ -1,16 +1,8 @@
 $text-color: #222D49;
 $text-color: #f8f8f8;
-$link-color: #DC4444;
-$red: #DC4444;
-$black: rgba(0,0,0,1);
-$deep-blue: #222D49;
-$deep-red: #B23131;
-$light-blue: #4A90E2;
-$white: rgba(255,255,255,1);
-$green: rgba(43,160,90,1);
-$grey: rgba(60,60,60,.5);
-$light-grey: rgba(60,60,60,1);
-$salmon: rgba(255,146,153,1);
+$blue: rgba(66, 109, 246, 0.85);
+
+
 
 /*Break Points*/
 $break-xs: "screen and (max-width: 767px)";
@@ -33,7 +25,7 @@ $serif: 'Crimson Text', Georgia, serif;
 
 
 body {
-  background: #111;
+  background: $blue;
   font-family: $serif;
   font-size: 26px;
   line-height: 36px;
