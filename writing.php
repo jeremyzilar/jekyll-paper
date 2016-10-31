@@ -21,7 +21,7 @@
         <h3>Books:</h3>
         <p><a href="https://www.amazon.com/dp/1592538959/">Designing the Editorial Experience</a>, co-authored with Sue Apfelbaum, May 2014</p>
         <p><a href="https://www.amazon.com/dp/0789318814/">Paper Astronaut</a>, <a href="https://www.amazon.com/dp/0789318091">Paper Captain</a>, and <a href="https://www.amazon.com/dp/0789315351/">Paper Pilot</a>, 2007–2009</p>
-        <p><a href="https://www.amazon.com/dp/0789315351/">Office Mayhem</a>, 2008</p>
+        <p><a href="https://www.amazon.com/dp/0810993872">Office Mayhem</a>, 2008</p>
       </div>
     </div>
   </div><!-- .container -->
