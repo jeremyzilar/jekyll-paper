@@ -3,7 +3,7 @@
 $doc_root = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
 $request_uri = $_SERVER['REQUEST_URI'];
 $host = $_SERVER['HTTP_HOST'];
-$basename =  basename($_SERVER['REQUEST_URI'], '.php');
+$basename =  basename($request_uri, '.php');
 
 // localhost check
 if ($host == 'local.work') {
@@ -22,6 +22,10 @@ $base = ($basename === 'juliettecezzar') ? 'home' : $basename ;
 
 
 // Page Conditions
+if ($base == 'home') {
+  $page_title = 'Home';
+}
+
 if ($base == 'writing') {
   $page_title = 'Writing';
 }

@@ -25,6 +25,9 @@
 
 <body>
 
+  <!-- $request_uri = <?php echo $request_uri; ?> -->
+  <!-- $basename = <?php echo $basename; ?> -->
+  <!-- $base = <?php echo $base; ?> -->
   <div class="video-background">
     <div class="video-overlay"></div>
     <div class="video-foreground">https://youtu.be/I-VC-LWAy5U
