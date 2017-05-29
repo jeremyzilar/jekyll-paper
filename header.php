@@ -12,12 +12,13 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="assets/css/main.css?=new" type="text/css" media="screen" title="no title" charset="utf-8">
 
   <title>Juliette Cezzar / Design</title>
@@ -37,5 +38,3 @@
       <div class="color-overlay"></div>
     <?php } ?>
   </div>
-
-

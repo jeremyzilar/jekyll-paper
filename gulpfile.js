@@ -1,14 +1,11 @@
-var gutil = require('gulp-util');
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 var notify = require("gulp-notify");
-
-
-var sass = require('gulp-sass'),
-    watch = require('gulp-watch'),
-    rename = require('gulp-rename'),
-    cleanCSS = require('gulp-clean-css'),
-    strip = require('gulp-strip-css-comments'),
-    browserSync = require('browser-sync').create();
+var sass = require('gulp-sass');
+var watch = require('gulp-watch');
+var cleanCSS = require('gulp-clean-css');
+var strip = require('gulp-strip-css-comments');
+var browserSync = require('browser-sync').create();
 
 var paths = {
   scss: 'assets/scss/main.scss',
