@@ -18,7 +18,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="assets/css/main-min.css?=new" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="assets/css/main.css?=new" type="text/css" media="screen" title="no title" charset="utf-8">
 
   <title>Juliette Cezzar / Design</title>
 </head>
