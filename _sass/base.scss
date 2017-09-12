@@ -1,5 +1,6 @@
 
 body {
+  background: $background-color;
   font-family: $base-font-family;
   font-size: 26px;
   line-height: 36px;
@@ -8,7 +9,7 @@ body {
 }
 
 a {
-  color:$text-color;
+  color:$brand-color;
   border-bottom: solid 2px rgba(255,255,255,.5);
 }
 
@@ -51,6 +52,7 @@ p{
     font-size: 48px;
     a{
       text-decoration: none;
+      color: $text-color;
     }
     a:hover{
       text-decoration: underline;
@@ -66,18 +68,32 @@ p{
 .row{
 }
 
+.post-header{
+  margin-bottom: 55px;
+}
+
 .entry{
+  margin-bottom: 55px;
   h1{
     font-size: 1.5em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   h2{
+    margin: 0 0 5px 0;
     font-size: 1em;
     margin-bottom: 5px;
+    a{
+      color: $text-color;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
   }
   .post-meta{
-    margin-bottom: 50px;
+    margin-bottom: 0;
     font-size: .75em;
+    line-height: 21px;
   }
   .post-content{
     p{
@@ -90,4 +106,7 @@ p{
 footer{
   margin: 120px 0 80px 0;
   font-size: .7em;
+  .container{
+    border-top: 2px #222 solid;
+  }
 }
