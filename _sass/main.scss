@@ -1,7 +1,15 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
 
+// Colors
+@mixin alpha-background-color($color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  background-color: $solid-color;
+  background-color: $color;
+}
+// Define defaults for each variable.
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
@@ -10,7 +18,7 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
+$text-color:       #222 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
@@ -40,6 +48,13 @@ $on-laptop:        800px !default;
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
+
+/*Break Points*/
+$break-xs: "screen and (max-width: 767px)";
+$break-sm: "screen and (min-width: 768px)";
+$break-md: "screen and (min-width: 992px)";
+$break-lg: "screen and (min-width: 1200px)";
+
 
 // Import partials.
 @import
