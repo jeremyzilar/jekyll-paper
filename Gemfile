@@ -26,3 +26,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "webrick", "~> 1.7"
+gem "kramdown", ">= 2.3.1"
