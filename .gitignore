@@ -4,13 +4,18 @@
 # mac osx file system
 .DS_store
 
+
 # node.js
 bower_components/
 node_modules/
+
+# Jekyll
+.jekyll-cache/
 
 # compiled styles and javascript for production
 assets/scss/.sass-cache/
 assets/scss/.sass-cache/*
 
+# compiled HTML files
 _site
 .sass-cache
