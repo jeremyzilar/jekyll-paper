@@ -1,5 +1,8 @@
-@charset "utf-8";
+// Main SCSS ==========================
+// This file is for storing SCSS and style variables that then get used in base.scss
+// Example: changing `$text-color` in this file will change the color of the text all around the site.
 
+@charset "utf-8";
 
 // Colors
 @mixin alpha-background-color($color, $background) {
